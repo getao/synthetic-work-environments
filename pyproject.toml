@@ -1,0 +1,18 @@
+[project]
+name = "pc-simulation-agent"
+version = "0.1.0"
+description = "Generate realistic Windows PC filesystem environments from user personas"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "claude-agent-sdk>=0.1.44",
+]
+
+[tool.setuptools]
+packages = ["agents"]
+py-modules = [
+    "pipeline", "batch_run", "cold_start", "daily_sim", "system_prompt", "world_claude_md",
+    # macOS variants
+    "cold_start_mac", "daily_sim_mac", "batch_run_mac", "batch_daily_sim_mac",
+    "system_prompt_mac", "world_claude_md_mac",
+]
