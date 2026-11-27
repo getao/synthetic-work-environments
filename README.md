@@ -1,5 +1,7 @@
 # Synthetic Work Environments at Scale for Long-Horizon Productivity Agents
 
+**Paper.** This work has been accepted for publication in **Findings of EACL 2027**. The conference will publish the camera-ready version under the title shown above. The [original arXiv preprint](https://arxiv.org/pdf/2604.28181) is available under its earlier title, *Synthetic Computers at Scale for Long-Horizon Productivity Simulation*.
+
 Generate a persona-conditioned Windows- or macOS-style filesystem, simulate a month of professional tasks, evaluate deliverables, and write a retrospective report. Filesystems are represented as directories on disk. The runtime is the Claude Agent SDK. This release uses four document skills from [MiniMax](https://github.com/MiniMax-AI/skills): minimax-docx, minimax-xlsx, pptx-generator, and minimax-pdf. The paper's original configuration also used additional skills for non-Office artifacts.
 
 ## Quick start
